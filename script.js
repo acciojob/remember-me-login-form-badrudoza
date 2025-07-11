@@ -23,8 +23,8 @@ form.addEventListener("submit",(e)=>{
 		exitBtn.style.display="block";
 	}
 	else{
-		localStorage.remove("username");
-		localStorage.remove("password");
+		localStorage.removeItem("username");
+		localStorage.removeItem("password");
 		exitBtn.style.display="none";
 	}
 	nameInput.value="";
