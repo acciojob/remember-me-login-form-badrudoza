@@ -12,6 +12,8 @@ window.addEventListener("DOMContentLoaded",()=>{
 	let savedPass=localStorage.getItem("password");
 	if(savedName && savedPass){
 		exitBtn.style.display="block";
+	}else{
+		exitBtn.style.display="none";
 	}
 });
 form.addEventListener("submit",(e)=>{
