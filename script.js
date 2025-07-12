@@ -29,9 +29,9 @@ form.addEventListener("submit",(e)=>{
 		localStorage.removeItem("password");
 		exitBtn.style.display="none";
 	}
-	nameInput.value="";
-	passInput.value="";
-	checkboxInput.checked=false;
+	// nameInput.value="";
+	// passInput.value="";
+	// checkboxInput.checked=false;
 });
 exitBtn.addEventListener("click",()=>{
 	const name=localStorage.getItem("username");
